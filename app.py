@@ -87,7 +87,7 @@ class GA:
 
 
 @app.route("/", methods=['GET'])
-def hello_world():
+def app():
     instance = GA()
     arr = instance.selectParents()
     print(arr)
