@@ -11,7 +11,7 @@ class GA:
     def __init__(self):
         self.population = []
         i = 1
-        while i <= 60:
+        while i <= 40:
             self.population.append(i)
             i= i+1
 
@@ -43,7 +43,7 @@ class GA:
 
                 i = 0
                 k=1
-                while i<=59:
+                while i<=39:
                     rand.append(k)
                     i = i+1
                     k=k+1
